@@ -17,7 +17,7 @@ const Main = () => {
             Build something great with me
           </p>
           <p className="py-4 text-gray-700 text-sm max-w-[40%] m-auto">
-            I'm a software engineer specializing in building exceptional web and
+            Software engineer specializing in building exceptional web and
             mobile experiences. I work across the stack with a strong leaning
             towards mobile and backend technologies but ocassionally do some
             frontend projects like this site <span>🙂</span>.
