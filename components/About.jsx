@@ -17,16 +17,16 @@ const About = () => {
             I consider myself to be a fullstack software engineer.
           </p>
           <p className="text-md mt-2">
-            I wasn't always into software but had tinkered around with a few
+            I was not always into software but had tinkered around with a few
             programming languages while I was in college studying
             cyber-security. Towards the end of my undergraduate programme, I got
             a chance to participate in a hackathon during Nairobi Tech Week 2016
-            and that's where my love/hate relationship with software began.
+            and that is where my love/hate relationship with software began.
           </p>
           <p className="text-md mt-2">
-            My first experience was in cybersecurity but that didn't last long
+            My first experience was in cybersecurity but that did not last long
             as my soul had already been set on fire so I transitioned to
-            software which itself was a long struggle. Since then, I've had a
+            software which itself was a long struggle. Since then, I have had a
             chance to work at multiple great companies and build amazing
             products used by millions. I have experience across different
             domains having worked on backend, frontend, mobile and some devops.
