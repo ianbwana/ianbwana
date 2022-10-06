@@ -3,6 +3,7 @@ import Image from "next/image";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import Profile from "../public/assets/profile.jpg";
 
 const About = () => {
   return (
@@ -54,12 +55,7 @@ const About = () => {
           </ul>
         </div>
         <div className="p-5">
-          <Image
-            src="/../public/assets/profile.jpg"
-            alt="me"
-            width={300}
-            height={400}
-          />
+          <Image src={Profile} alt="me" width="300" height="400" />
         </div>
       </div>
     </div>
