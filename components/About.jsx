@@ -37,7 +37,10 @@ const About = () => {
           </p>
           <ul className="list-inside">
             <li className="list-disc antialiased">
-              JavaScript <span className="italic">(React Native, React)</span>
+              JavaScript{" "}
+              <span className="italic">
+                (React Native, React, Node, Express)
+              </span>
             </li>
             <li className="list-disc antialiased">
               <span className="italic">Python(Django, Flask, FastAPI</span>

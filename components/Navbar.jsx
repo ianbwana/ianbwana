@@ -10,9 +10,6 @@ import Logo from "../public/assets/NavLogo.png";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("#ecf0f3");
-  const [linkColor, setLinkColor] = useState("#1f2937");
-  const router = useRouter();
 
   const handleNav = () => {
     setNav(!nav);
@@ -48,10 +45,8 @@ const Navbar = () => {
             <Link href="/#about">
               <li className="ml-10 text-sm uppercase hover:border-b">About</li>
             </Link>
-            <Link
-              href="https://drive.google.com/file/d/1-4--7yHzikyyUBxhCfZjQzKOF6-3Sv4M/view?usp=sharing"
-              download>
-              <a target="_blank" rel="noopener noreferrer">
+            <Link href="">
+              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
                 <li className="ml-10 text-sm uppercase hover:border-b">
                   Resume
                 </li>
@@ -77,11 +72,11 @@ const Navbar = () => {
           }>
           <div>
             <div className="flex w-full items-center justify-between">
-              <Image src={Logo} alt="/" width="120" height="40" />
+              <Image src={Logo} alt="/" width="135" height="40" />
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
-                <AiOutlineClose size={25} />
+                className="rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer">
+                <AiOutlineClose size={20} />
               </div>
             </div>
           </div>
@@ -92,32 +87,30 @@ const Navbar = () => {
           </div>
           <div className="py-4 flex flex-col text-black">
             <ul className="uppercase">
-              <Link href="/">
+              <Link href="/#about">
                 <li className="py-4 text-sm">About</li>
               </Link>
-              <Link
-                href="https://drive.google.com/file/d/1-4--7yHzikyyUBxhCfZjQzKOF6-3Sv4M/view?usp=sharing"
-                download>
-                <a target="_blank" rel="noopener noreferrer">
+              <Link href="">
+                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
                   <li className="py-4 text-sm">Resume</li>
                 </a>
               </Link>
             </ul>
           </div>
-          <div className="pt-40">
+          <div className="pt-4">
             <p className="uppercase tracking-widest text-[#07A3BA]">
               Connect with me
             </p>
             <div className="flex items-center justify-start mx-5 my-4 w-full sm:w-[80%] text-black">
               <div
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 eas-in duration-500"
+                className="rounded-full shadow-lg shadow-gray-400 p-3 m-3 cursor-pointer hover:scale-105 eas-in duration-500"
                 onClick={() =>
                   window.open("https://www.linkedin.com/in/ianbwana/")
                 }>
                 <FaLinkedinIn />
               </div>
               <div
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 eas-in duration-500"
+                className="rounded-full shadow-lg shadow-gray-400 p-3 m-3 cursor-pointer hover:scale-105 eas-in duration-500"
                 onClick={() => window.open("https://github.com/ianbwana")}>
                 <FaGithub />
               </div>
