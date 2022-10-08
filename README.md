@@ -1,2 +1,2 @@
-This is my personal website built using NextJs. Enjoy 🙂
+This is my personal website built using NextJs. Cheers 🥂
 
