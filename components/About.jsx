@@ -1,8 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import Profile from "../public/assets/profile.jpg";
 
 const About = () => {
@@ -13,10 +10,8 @@ const About = () => {
           <p className="text-xl tracking-widest uppercase text-[#07A3BA]">
             About
           </p>
-          <h2 className="my-4 text-gray-700  font-extrabold">Who am I</h2>
-          <p className="text-md my-2">
-            I consider myself to be a fullstack software engineer.
-          </p>
+          <h2 className="my-4 text-gray-700  font-extrabold">Who am I?</h2>
+          <p className="text-md my-2">I am a fullstack software engineer.</p>
           <p className="text-md mt-2">
             I was not always into software but had tinkered around with a few
             programming languages while I was in college studying
