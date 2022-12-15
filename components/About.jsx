@@ -40,11 +40,12 @@ const About = () => {
             <li className="list-disc antialiased">
               <span className="italic">Python(Django, Flask, FastAPI</span>
             </li>
+            <li className="list-disc antialiased">Golang</li>
             <li className="list-disc antialiased">
               NoSQL<span className="italic">(MongoDB, Cassandra)</span>
             </li>
             <li className="list-disc antialiased">
-              SQL <span className="italic">(PostgreSQL, MySQL)</span>
+              SQL <span className="italic">(PostgreSQL, MySQL, SQL Server)</span>
             </li>
             <li className="list-disc antialiased">Azure, DigitalOcean, AWS</li>
             <li className="list-disc antialiased">Redis</li>
