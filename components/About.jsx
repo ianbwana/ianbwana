@@ -38,7 +38,7 @@ const About = () => {
               </span>
             </li>
             <li className="list-disc antialiased">
-              <span className="italic">Python(Django, Flask, FastAPI</span>
+              <span className="italic">Python(Django, Flask, FastAPI)</span>
             </li>
             <li className="list-disc antialiased">Golang</li>
             <li className="list-disc antialiased">
