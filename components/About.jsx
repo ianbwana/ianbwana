@@ -41,6 +41,10 @@ const About = () => {
               <span className="italic">Python(Django, Flask, FastAPI)</span>
             </li>
             <li className="list-disc antialiased">Golang</li>
+            <li className="list-disc antialiased">Android{" "}
+              <span className="italic">
+                (Kotlin)
+              </span></li>
             <li className="list-disc antialiased">
               NoSQL<span className="italic">(MongoDB, Cassandra)</span>
             </li>
