@@ -22,13 +22,13 @@ const Main = () => {
           </p>
           <div className="flex items-center justify-between max-w-[30%] m-auto py-4">
             <div className="flex items-center justify-center my-4 w-full sm:w-[80%] text-[#07A3BA]">
-              <div
+              {/* <div
                 className="rounded-full shadow-lg shadow-gray-400 p-3 m-5 cursor-pointer hover:scale-105 eas-in duration-500"
                 onClick={() =>
                   window.open("https://www.linkedin.com/in/ianbwana/")
                 }>
                 <FaLinkedinIn />
-              </div>
+              </div> */}
               <div
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 eas-in duration-500"
                 onClick={() => window.open("https://github.com/ianbwana")}>
