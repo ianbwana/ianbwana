@@ -103,7 +103,7 @@ const Navbar = () => {
               <div
                 className="rounded-full shadow-lg shadow-gray-400 p-3 m-3 cursor-pointer hover:scale-105 eas-in duration-500"
                 onClick={() =>
-                  window.open("https://www.linkedin.com/in/ianbwana/")
+                  window.open("https://www.linkedin.com/in/ianbwana")
                 }>
                 <FaLinkedinIn />
               </div>
